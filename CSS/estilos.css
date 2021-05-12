@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+@font-face{
+    src: url('../fonts/Roboto-Light.ttf');
+    font-family: 'roboto';
+}
+
+main{
+    font-family:'Roboto', 'sans-serif';;
+}
+.Descuentos{
+    background-color: #1CD1B0;
+    font-size: 15px;
+}
+header{
+    background-color: #00669F;
+    font-family: 'Roboto', 'sans-serif';
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+.card{
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.card-img{
+    margin-left: 400px;
+    margin-right: 400px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-size:cover;
+}
+
+.cardtext{
+    
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: #f3f3f3;
+    position: relative;
+}
+
+img{
+    position: absolute;
+    left: 25%;
+    top: -150px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+   
+   
+
+}
+
+.img-bgbatman{
+    background-image: url('../IMG/bg-batman.jpg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position:center center ;
+    left: 610px;
+    height: 400px;
+}
+
+.img-bgmujerMaravilla{
+    background-image: url('../IMG/bg-wonderw.jpg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position: center center ;
+    left: 100px;
+    height: 400px;
+}
+
+
+.img-bgsuperman{
+    background-image: url('../IMG/bg-superman.jpg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position:center center ;
+    left: 100px;
+    height: 400px;
+}
+
+p{
+    padding: 0px 20px 40px;
+    font-size: 25px;
+   
+}
+
+a{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: #00669F;
+    background-position: center;
+    position: relative;
+    left: 200px;
+    
+    padding: 5px 40px 5px;
+    border-radius: 4px ;
+    bottom: 20px;
+    margin-top: 30px;
+    
+
+}
+
+h2{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.fa-heart{
+    color: #cc2424;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.fa-plus-circle{
+    color:#00669F;
+    font-size: 60px;
+    position: absolute;
+    position: sticky;
+    right:0;
+    top:50%;
+    background-attachment: fixed;
+}
+
+footer{
+    color: white;
+    background-color: #00669F;
+    text-align: center;
+    margin-top: 40px;
+
+    
+}
